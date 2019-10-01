@@ -1,0 +1,43 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "starter kit untuk reactjs server side rendering",
+  "main": "server.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack & NODE_ENV=development nodemon server.js",
+    "build": "NODE_ENV=development webpack -w",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "sofyanwaldy",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sofyanwaldy/react-ssr-boilerplate.git"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cross-env": "^6.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^9.0.2",
+    "dotenv": "^8.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "nodemon": "^1.19.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
